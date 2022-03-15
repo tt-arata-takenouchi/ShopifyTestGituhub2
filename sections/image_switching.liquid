@@ -1,0 +1,63 @@
+<div class="page-width">
+  <div class="custom-content custom__item--imageitem">
+    <div class="custom__item-inner custom__item-inner--imageitem">
+      <img class="imageitem__item imageitem__item__pc" src="{{ section.settings.image_pc | img_url: 'master'}}"/>
+      <img class="imageitem__item imageitem__item__sp" src="{{ section.settings.image_sp | img_url: 'master'}}"/>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "画像(PC/SP)",
+    "settings": [
+		{
+			"type": "image_picker",
+			"id": "image_pc",
+			"label": "PC表示画像"
+		},
+		{
+			"type": "image_picker",
+			"id": "image_sp",
+			"label": "SP表示画像"
+		}
+	],
+	"presets": [
+		{
+			"name": "画像(PC/SP)",
+			"category": "image"
+		}
+	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+.custom__item--imageitem{
+  margin: 0 auto;
+}
+
+.imageitem__item{
+  width: 100%;
+  max-width: 1080.0px;
+  margin: 0 auto;
+}
+
+.imageitem__item__pc{
+    display: none;
+  }
+.imageitem__item__sp{
+    display: block;
+  }
+
+@media only screen and (min-width: 750px){
+  .imageitem__item__pc{
+    display: block;
+  }
+  .imageitem__item__sp{
+    display: none;
+  }
+}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,38 @@
+<div class="page-width">
+  <div class="grid">
+    <div class="grid__item medium-up--five-sixths medium-up--push-one-twelfth">
+      <div class="section-header text-center">
+        <h1>{{ page.title }}</h1>
+      </div>
+
+      <div class="rte">
+        {{ page.content }}
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script>
+//アコーディオンをクリックした時の動作
+$('.title').on('click', function() {
+  var findElm = $(this).next(".box");
+  $(findElm).slideToggle();
+
+  if($(this).hasClass('close')){
+    $(this).removeClass('close');
+  }else{
+    $(this).addClass('close');
+  }
+});
+
+$(window).on('load', function(){
+  $('.accordion-area li:first-of-type section').addClass("open");
+  $(".open").each(function(index, element){
+    var Title =$(element).children('.title');
+    $(Title).addClass('close');
+    var Box =$(element).children('.box');
+    $(Box).slideDown(500);
+  });
+});
+</script>

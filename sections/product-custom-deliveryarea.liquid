@@ -1,0 +1,158 @@
+{%- if section.settings.deliveryarea-heading -%}
+<div class="page-width">
+    <div class="product-costom-deliveryarea__inner">
+        <div class="section-header text-center">
+          <h2>{{ section.settings.deliveryarea-heading}}</h2>
+        </div>
+        {%- if section.settings.deliveryarea-summary-heading1 -%}
+        <div class="product-costom-deliveryarea__summary">
+          <dl>
+            <dt>{{ section.settings.deliveryarea-summary-heading1}}</dt>
+            <dd>{{ section.settings.deliveryarea-summary-text1}}</dd>
+            <dt>{{ section.settings.deliveryarea-summary-heading2}}</dt>
+            <dd>{{ section.settings.deliveryarea-summary-text2}}</dd>
+          </dl>
+          <div>
+            <p>{{ section.settings.deliveryarea-summary-note}}</p>
+          </div>
+        </div>
+        {%- endif -%}
+        <div class="accordion">
+          <div class="custom-field--content">
+          <ul class="accordion-area">
+            {% for block in section.blocks %}
+            <li>
+              <section>
+                <h3 class="title">{{ block.settings.deliveryarea-subheading}}</h3>
+                <div class="box">
+                  {{ block.settings.deliveryarea-description}}
+                </div>
+              </section>
+            </li>
+            {% endfor %}
+          </ul>
+          </div>
+        </div>
+    </div>
+</div>
+{%- endif -%}
+
+{% schema%}
+
+{
+ "name": "配送地域",
+ "settings": [
+   {
+     "id": "deliveryarea-heading",
+     "type": "text",
+     "label": "配送地域-見出し",
+     "default": "タイトル"
+   }, {
+     "id": "deliveryarea-summary-heading1",
+     "type": "text",
+     "label": "概要-見出し1",
+     "default": "テキスト"
+   }, {
+     "id": "deliveryarea-summary-text1",
+     "type": "richtext",
+     "label": "概要-テキスト1",
+     "default": "<p>ここにテキストを入力してください。</p>"
+   }, {
+     "id": "deliveryarea-summary-heading2",
+     "type": "text",
+     "label": "概要-見出し2",
+     "default": "テキスト"
+   }, {
+     "id": "deliveryarea-summary-text2",
+     "type": "richtext",
+     "label": "概要-テキスト2",
+     "default": "<p>ここにテキストを入力してください。</p>"
+   }, {
+     "id": "deliveryarea-summary-note",
+     "type": "richtext",
+     "label": "概要-注意書き",
+     "default": "<p>ここにテキストを入力してください。</p>"
+   }
+  ],
+  "blocks": [
+  {
+    "type": "select",
+    "name": "エリア追加",
+    "settings":  [
+     {
+       "id": "deliveryarea-subheading",
+       "type": "text",
+       "label": "配送地域-子見出し",
+       "default": "地域名"
+     }, {
+       "id": "deliveryarea-description",
+       "type": "richtext",
+       "label": "配送地域-リスト",
+       "default": "<p>ここにテキストを入力してください。</p>"
+     }
+    ]
+  }
+ ],
+ "presets": [
+   {
+     "name": "配送地域",
+     "category": "テキスト"
+   }
+ ]
+}
+
+{% endschema%}
+
+{% stylesheet%}
+#shopify-section-product-custom-deliveryarea{
+  margin: 55px 0 0 0;
+  border-top: 1px solid #ebebeb;
+}
+@media only screen and (min-width: 750px){
+  #shopify-section-product-custom-deliveryarea{
+    margin: 45px 0 0 0;
+  }
+}
+
+.product-costom-deliveryarea__inner{
+  padding: 35px 0;
+}
+@media only screen and (min-width: 750px){
+  .product-costom-deliveryarea__inner{
+    padding: 55px 0;
+  }
+}
+
+.product-costom-deliveryarea__summary{
+  margin: 0 0 17.5px;
+  padding: 3%;
+  background: #f6f6f6;
+}
+
+.product-costom-deliveryarea__summary dl{
+  margin: 0;
+}
+
+.product-costom-deliveryarea__summary dl dt{
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.product-costom-deliveryarea__summary dl dd{
+  font-weight: 400;
+  margin: 0 0 0.75em;
+}
+{% endstylesheet%}
+
+{% javascript %}
+  $('.title').on('click', function() {
+    var findElm = $(this).next(".box");
+    $(findElm).slideToggle();
+
+    if($(this).hasClass('close')){
+      $(this).removeClass('close');
+    }else{
+      $(this).addClass('close');
+    }
+  });
+{% endjavascript %}

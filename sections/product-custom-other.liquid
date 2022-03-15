@@ -1,0 +1,100 @@
+<div class="page-width">
+    <div class="product-costom-otherarea__inner">
+        {%- if section.settings.otherarea-heading -%}
+        <div class="section-header text-center">
+          <h2>{{ section.settings.otherarea-heading}}</h2>
+        </div>
+        {%- endif -%}
+
+        <div class="otherarea-table__inner">
+          <table>
+            <tbody>
+              {% for block in section.blocks %}
+              <tr>
+                <th>{{ block.settings.otherarea-tablehead}}</th>
+              </tr>
+              <tr>
+                <td>{{ block.settings.otherarea-description}}</td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+    </div>
+</div>
+
+{% schema%}
+
+{
+ "name": "その他",
+ "settings": [
+   {
+     "id": "otherarea-heading",
+     "type": "text",
+     "label": "その他-見出し",
+     "default": "その他"
+   }
+  ],
+  "blocks": [
+  {
+    "type": "select",
+    "name": "テーブルセクション",
+    "settings":  [
+     {
+       "id": "otherarea-tablehead",
+       "type": "text",
+       "label": "テーブル-子見出し",
+       "default": "テキスト"
+     }, {
+       "id": "otherarea-description",
+       "type": "richtext",
+       "label": "テーブル-文言",
+       "default": "<p>ここにテキストを入力してください。</p>"
+     }
+    ]
+  }
+ ],
+ "presets": [
+   {
+     "name": "その他",
+     "category": "テキスト"
+   }
+ ]
+}
+
+{% endschema%}
+
+{% stylesheet%}
+#shopify-section-product-custom-other{
+  margin: 55px 0 0 0;
+  border-top: 1px solid #ebebeb;
+}
+@media only screen and (min-width: 750px){
+  #shopify-section-product-custom-other{
+    margin: 45px 0 0 0;
+  }
+}
+
+.product-costom-otherarea__inner{
+  padding: 35px 0;
+}
+@media only screen and (min-width: 750px){
+  .product-costom-otherarea__inner{
+    padding: 55px 0;
+  }
+}
+
+.otherarea-table__inner:not(:first-of-type){
+  margin-top: 33px;
+}
+
+.otherarea-table__inner th{
+  background-color: #f6f6f6;
+  font-weight: 600;
+  letter-spacing: .1em;
+  border-bottom: none;
+}
+{% endstylesheet%}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,83 @@
+<div class="page-width">
+    <div class="custom-content custom__item--imagelist">
+      <div class="custom__item-inner custom__item-inner--imagelist">
+          <ul>
+            {% for block in section.blocks %}
+            <li>
+                <img class="imagelist__item imagelist__item__pc" src="{{ block.settings.imagelistarea-pc | img_url: 'master'}}"/>
+                <img class="imagelist__item imagelist__item__sp" src="{{ block.settings.imagelistarea-sp | img_url: 'master'}}"/>
+            </li>
+            {% endfor %}
+          </ul>
+      </div>
+    </div>
+</div>
+
+{% schema%}
+
+{
+ "name": "画像リスト(PC/SP)",
+  "blocks": [
+  {
+    "type": "select",
+    "name": "リスト：画像切り替え(PC/SP)",
+    "settings":  [
+     {
+       "id": "imagelistarea-pc",
+       "type": "image_picker",
+       "label": "PC表示画像"
+     }, {
+       "id": "imagelistarea-sp",
+       "type": "image_picker",
+       "label": "SP表示画像"
+     }
+    ]
+  }
+ ],
+ "presets": [
+   {
+     "name": "画像リスト(PC/SP)",
+     "category": "imagelist"
+   }
+ ]
+}
+
+{% endschema%}
+
+{% stylesheet%}
+.custom__item--imagelist{
+  margin: 0 auto;
+  padding: 35px 0;
+}
+@media only screen and (min-width: 750px){
+  .custom__item--imagelist{
+    padding: 55px 0;
+  }
+}
+
+.imagelist__item{
+  width: 100%;
+  max-width: 1080.0px;
+  margin: 0 auto;
+}
+
+.imagelist__item__pc{
+    display: none;
+  }
+.imagelist__item__sp{
+    display: block;
+  }
+
+@media only screen and (min-width: 750px){
+  .imagelist__item__pc{
+    display: block;
+  }
+  .imagelist__item__sp{
+    display: none;
+  }
+}
+
+{% endstylesheet%}
+
+{% javascript %}
+{% endjavascript %}

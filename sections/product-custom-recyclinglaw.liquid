@@ -1,0 +1,100 @@
+<div class="page-width">
+    <div class="product-costom-recyclinglawarea__inner">
+        {%- if section.settings.recyclinglawarea-heading -%}
+        <div class="section-header text-center">
+          <h2>{{ section.settings.recyclinglawarea-heading}}</h2>
+        </div>
+        {%- endif -%}
+
+        <div class="recyclinglawarea-table__inner">
+          <table>
+            <tbody>
+              {% for block in section.blocks %}
+              <tr>
+                <th>{{ block.settings.recyclinglawarea-tablehead}}</th>
+              </tr>
+              <tr>
+                <td>{{ block.settings.recyclinglawarea-description}}</td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+    </div>
+</div>
+
+{% schema%}
+
+{
+ "name": "家電リサイクル法に基づくリサイクル回収",
+ "settings": [
+   {
+     "id": "recyclinglawarea-heading",
+     "type": "text",
+     "label": "家電リサイクル法に基づくリサイクル回収-見出し",
+     "default": "家電リサイクル法に基づくリサイクル回収"
+   }
+  ],
+  "blocks": [
+  {
+    "type": "select",
+    "name": "テーブルセクション",
+    "settings":  [
+     {
+       "id": "recyclinglawarea-tablehead",
+       "type": "text",
+       "label": "テーブル-子見出し",
+       "default": "テキスト"
+     }, {
+       "id": "recyclinglawarea-description",
+       "type": "richtext",
+       "label": "テーブル-文言",
+       "default": "<p>ここにテキストを入力してください。</p>"
+     }
+    ]
+  }
+ ],
+ "presets": [
+   {
+     "name": "家電リサイクル法に基づくリサイクル回収",
+     "category": "テキスト"
+   }
+ ]
+}
+
+{% endschema%}
+
+{% stylesheet%}
+#shopify-section-product-custom-recyclinglaw{
+  margin: 55px 0 0 0;
+  border-top: 1px solid #ebebeb;
+}
+@media only screen and (min-width: 750px){
+  #shopify-section-product-custom-recyclinglaw{
+    margin: 45px 0 0 0;
+  }
+}
+
+.product-costom-recyclinglawarea__inner{
+  padding: 35px 0;
+}
+@media only screen and (min-width: 750px){
+  .product-costom-recyclinglawarea__inner{
+    padding: 55px 0;
+  }
+}
+
+.recyclinglawarea-table__inner:not(:first-of-type){
+  margin-top: 33px;
+}
+
+.recyclinglawarea-table__inner th{
+  background-color: #f6f6f6;
+  font-weight: 600;
+  letter-spacing: .1em;
+  border-bottom: none;
+}
+{% endstylesheet%}
+
+{% javascript %}
+{% endjavascript %}

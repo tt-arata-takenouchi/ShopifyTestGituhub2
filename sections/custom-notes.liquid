@@ -1,0 +1,82 @@
+<div class="page-width">
+  {%- if section.settings.noticesarea-heading != blank -%}
+    <div class="costom-noticesarea__inner">
+      <div class="costom-noticesarea__text text-center">
+        {%- if section.settings.noticesarea-heading != blank -%}
+          <h2>{{ section.settings.noticesarea-heading}}</h2>
+        {%- endif -%}
+        {%- if section.settings.noticesarea-description != blank -%}
+          <p>{{ section.settings.noticesarea-description}}</p>
+        {%- endif -%}
+      </div>
+    </div>
+  {%- endif -%}
+</div>
+
+{% schema %}
+{
+ "name": "重要なお知らせ",
+ "settings": [
+   {
+     "id": "noticesarea-heading",
+     "type": "text",
+     "label": "重要なお知らせ-見出し",
+     "default": "重要なお知らせ"
+   },
+   {
+     "id": "noticesarea-description",
+     "type": "richtext",
+     "label": "重要なお知らせ-本文",
+     "default": "<p>ここにテキストを入力してください。</p>"
+   }
+  ],
+ "presets": [
+   {
+     "name": "重要なお知らせ",
+     "category": "テキスト"
+   }
+ ]
+}
+
+{% endschema%}
+
+{% stylesheet%}
+.costom-noticesarea__inner{
+  padding: 20px 16px;
+  border: solid 4px #fff6c4;
+  background-color: #fffcea;
+  margin-bottom: 35px;
+}
+@media only screen and (min-width: 750px){
+  .costom-noticesarea__inner{
+    padding: 30px;
+    margin-bottom: 55px;
+  }
+}
+
+.costom-noticesarea__text p{
+  margin: .3em auto;
+  text-align: left;
+}
+@media only screen and (min-width: 750px){
+  .costom-noticesarea__text p{
+    text-align: center;
+  }
+}
+
+.costom-noticesarea__text strong{
+  margin: .5em auto;
+  font-size: 1.3em;
+  letter-spacing: .1em;
+  color: #ff0000;
+}
+}
+
+.costom-noticesarea__text em{
+  text-style: normal;
+  color: #ff0000;
+}
+{% endstylesheet%}
+
+{% javascript %}
+{% endjavascript %}

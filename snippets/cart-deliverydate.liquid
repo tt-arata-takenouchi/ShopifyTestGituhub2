@@ -1,0 +1,25 @@
+{{ '//cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css' | stylesheet_tag }}
+<script src="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.js"></script>
+
+<div class="cart-deliveryrequest">
+<p class="cart-deliveryrequest__title"><span>必須</span>お届け希望日</p>
+<input class="flatpickr" name="attributes[お届け希望日]" type="text" placeholder="指定なし" readonly="readonly" />
+</div>
+<div class="cart-deliveryrequest__note rte">
+  <ul>
+    <li class="redtxt">※ご希望日は、注文日の3日後から2週間先まで選択可能です。</li>
+    <li>※銀行振込の場合、5日後以降を選択してください。</li>
+    <li>※お時間の指定はできかねます。配送希望日の前日夕方以降に配送会社よりご連絡いたします。</li>
+  </ul>
+</div>
+<hr>
+
+<script>
+    const config = {
+        dateFormat: "Y/m/d",
+        minDate: new Date().fp_incr(3), // 3日後から指定
+        maxDate: new Date().fp_incr(3+13) // 3日後 + 13日後まで指定
+    }
+
+    flatpickr('.flatpickr', config);
+</script>

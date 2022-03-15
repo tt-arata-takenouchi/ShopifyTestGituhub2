@@ -1,0 +1,1039 @@
+{
+  "current": {
+    "color_button": "#ff8924",
+    "share_facebook": false,
+    "share_twitter": false,
+    "share_pinterest": false,
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "align_logo": "left",
+          "logo": "shopify:\/\/shop_images\/logo.png",
+          "logo_max_width": 100,
+          "main_linklist": "main-menu",
+          "message": false,
+          "home_page_only": false,
+          "message_text": "年末年始の対応について",
+          "message_link": "",
+          "color_bg": "#d62c2c",
+          "color_text": "#ffffff"
+        }
+      },
+      "feature-row": {
+        "type": "feature-row",
+        "settings": {
+        }
+      },
+      "feature-columns": {
+        "type": "feature-columns",
+        "blocks": {
+          "feature-columns-0": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "title": "タイトルまたはキャッチコピーを追加する",
+              "text": "<p>ブログ記事、商品、またはプロモーションをお客様に伝えます。このテキストで商品について説明し、出品状況やスタイルの詳細を共有するか、最近のレビューやFAQを表示するスペースとして使用します。<\/p>",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "feature-columns-1": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "title": "タイトルまたはキャッチコピーを追加する",
+              "text": "<p>ブログ記事、商品、またはプロモーションをお客様に伝えます。このテキストで商品について説明し、出品状況やスタイルの詳細を共有するか、最近のレビューやFAQを表示するスペースとして使用します。<\/p>",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "feature-columns-2": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "title": "タイトルまたはキャッチコピーを追加する",
+              "text": "<p>ブログ記事、商品、またはプロモーションをお客様に伝えます。このテキストで商品について説明し、出品状況やスタイルの詳細を共有するか、最近のレビューやFAQを表示するスペースとして使用します。<\/p>",
+              "button_label": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "feature-columns-0",
+          "feature-columns-1",
+          "feature-columns-2"
+        ],
+        "settings": {
+          "title": "",
+          "align_text": "left"
+        }
+      },
+      "collection": {
+        "type": "collection",
+        "settings": {
+          "title": "全国に100店舗以上展開中のリユースショップトレジャーファクトリーが運営しております。",
+          "collection": "商品一覧",
+          "grid": 3,
+          "rows": 3,
+          "show_vendor": false,
+          "show_view_all": true
+        }
+      },
+      "quotes": {
+        "type": "quotes",
+        "blocks": {
+          "quotes-0": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>あなたのストアの幸せなお客様を紹介するために、カスタマーレビューとお客様の声を追加してください。<\/p>",
+              "author": "筆者の名前"
+            }
+          },
+          "quotes-1": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>あなたのストアの幸せなお客様を紹介するために、カスタマーレビューとお客様の声を追加してください。<\/p>",
+              "author": "筆者の名前"
+            }
+          },
+          "quotes-2": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>あなたのストアの幸せなお客様を紹介するために、カスタマーレビューとお客様の声を追加してください。<\/p>",
+              "author": "筆者の名前"
+            }
+          }
+        },
+        "block_order": [
+          "quotes-0",
+          "quotes-1",
+          "quotes-2"
+        ],
+        "settings": {
+          "title": ""
+        }
+      },
+      "image-bar": {
+        "type": "image-bar",
+        "blocks": {
+          "image-bar-0": {
+            "type": "image",
+            "settings": {
+              "alignment": "center",
+              "link": "",
+              "cta_label": ""
+            }
+          },
+          "image-bar-1": {
+            "type": "image",
+            "settings": {
+              "alignment": "center",
+              "link": "",
+              "cta_label": ""
+            }
+          },
+          "image-bar-2": {
+            "type": "image",
+            "settings": {
+              "alignment": "center",
+              "link": "",
+              "cta_label": ""
+            }
+          }
+        },
+        "block_order": [
+          "image-bar-0",
+          "image-bar-1",
+          "image-bar-2"
+        ],
+        "settings": {
+          "section_height": "medium"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "title": "",
+              "menu": "footer"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0"
+        ],
+        "settings": {
+          "show_payment_icons": true,
+          "color_footer_bg": "#01a1dd",
+          "color_footer_text": "#ffffff",
+          "show_locale_selector": false,
+          "show_currency_selector": false
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "show_quantity_selector": true,
+          "show_vendor": false,
+          "enable_payment_button": false,
+          "show_share_buttons": false,
+          "media_size": "medium",
+          "enable_image_zoom": true,
+          "enable_video_looping": false
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "heading": "あなたへのおすすめ",
+          "show_vendor": false
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "settings": {
+          "display_type": "all",
+          "sort": "alphabetical",
+          "grid": 3
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "layout": "grid",
+          "grid": 4,
+          "rows": 3,
+          "show_collection_image": true,
+          "show_vendor": false,
+          "sort_enable": true,
+          "tags_enable": false
+        }
+      },
+      "product-custom-deliveryarea": {
+        "type": "product-custom-deliveryarea",
+        "blocks": {
+          "de474626-4d7a-4da1-9bea-0ec5f550c141": {
+            "type": "select",
+            "settings": {
+              "deliveryarea-subheading": "北海道",
+              "deliveryarea-description": "<p>札幌市、小樽市、北広島市、恵庭市、千歳市、苫小牧市、江別市、当別町、石狩市、岩見沢市、北見市、訓子府町、津別町、置戸町、美幌町<\/p>"
+            }
+          },
+          "c230cecb-6bcf-4b28-ad85-fd6416b6f66e": {
+            "type": "select",
+            "settings": {
+              "deliveryarea-subheading": "宮城県",
+              "deliveryarea-description": "<p>仙台市、岩沼市、名取市、多賀城市、塩釜市<\/p>"
+            }
+          },
+          "0292d8da-200b-4adf-9744-57ac10389778": {
+            "type": "select",
+            "settings": {
+              "deliveryarea-subheading": "福島県",
+              "deliveryarea-description": "<p>福島市、伊達市、いわき市、郡山市<\/p>"
+            }
+          },
+          "27e3dc8c-16bb-4b79-bdc1-12e2188f7fa9": {
+            "type": "select",
+            "settings": {
+              "deliveryarea-subheading": "茨城県",
+              "deliveryarea-description": "<p>つくば市、つくばみらい市、守谷市、取手市、利根町、竜ケ崎市、河内町、阿見町、土浦市、美浦町、稲敷市、かすみがうら市<\/p>"
+            }
+          },
+          "9670f4db-154c-4d4d-9f41-b2e9f7e23ac6": {
+            "type": "select",
+            "settings": {
+              "deliveryarea-subheading": "栃木県",
+              "deliveryarea-description": "<p>足利市、佐野市、栃木市、小山市<\/p>"
+            }
+          },
+          "b35af817-23a7-4591-93f9-c6419a496f09": {
+            "type": "select",
+            "settings": {
+              "deliveryarea-subheading": "群馬県",
+              "deliveryarea-description": "<p>富岡市、藤岡市、高崎市、前橋市、伊勢崎市、桐生市、太田市、館林市<\/p>"
+            }
+          },
+          "0395e64d-0505-415f-ab8d-b75a5b5725c6": {
+            "type": "select",
+            "settings": {
+              "deliveryarea-subheading": "山梨県",
+              "deliveryarea-description": "<p>甲府市、昭和町、中央市、笛吹市、甲斐市、南アルプス市、富士吉田市、富士河口湖町、忍野村、山中湖村、鳴沢村、都留市<\/p>"
+            }
+          },
+          "8a3f6922-5b1e-4bda-8150-5ed7a8122a63": {
+            "type": "select",
+            "settings": {
+              "deliveryarea-subheading": "長野県",
+              "deliveryarea-description": "<p>長野市、須坂市、中野市、千曲市、上田市、小諸市、佐久市、軽井沢町、御代田町、松本市、塩尻市、伊那市<\/p>"
+            }
+          },
+          "da3d3c8d-21cb-4a92-87c2-4ce59be1d069": {
+            "type": "select",
+            "settings": {
+              "deliveryarea-subheading": "岐阜県",
+              "deliveryarea-description": "<p>岐阜市、各務原市、羽島市、瑞穂市、海津市、岐南町、笠松町<\/p>"
+            }
+          },
+          "528f81eb-4613-45ba-92d4-c11234ddc0c9": {
+            "type": "select",
+            "settings": {
+              "deliveryarea-subheading": "静岡県",
+              "deliveryarea-description": "<p>富士市、沼津市、富士宮市、三島市、清水町、長泉町、裾野市、函南町、御殿場市、小山町、伊豆の国市、熱海市、静岡市清水区<\/p>"
+            }
+          },
+          "e93ee889-a90d-4935-915a-86a691271800": {
+            "type": "select",
+            "settings": {
+              "deliveryarea-subheading": "愛知県",
+              "deliveryarea-description": "<p>名古屋市、日進市、豊明市、春日井市、瀬戸市、尾張旭市、長久手市、みよし市、東郷町、知立市、刈谷市、安城市、豊田市、大府市、東海市、知多市、小牧市、大口町、犬山市、扶桑町、豊山町、江南市、岩倉市、一宮市、北名古屋市、清須市、稲沢市、あま市、大治町、津島市、愛西市、弥富市、飛島村、蟹江町<\/p>"
+            }
+          },
+          "6e021409-ea41-4326-91f1-079505189c3d": {
+            "type": "select",
+            "settings": {
+              "deliveryarea-subheading": "三重県",
+              "deliveryarea-description": "<p>桑名市、木曽岬町、朝日町、川越町、四日市市、鈴鹿市、津市、伊賀市、名張市<\/p>"
+            }
+          },
+          "ec10cded-7a6e-4223-8410-03aa7c6110f3": {
+            "type": "select",
+            "settings": {
+              "deliveryarea-subheading": "京都府",
+              "deliveryarea-description": "<p>京都市、宇治市、久御山町、向日市、長岡京市、大山埼町、八幡市、城陽市、宇治田原町、京田辺市、木津川市、精華町、相楽郡、綴喜郡<\/p>"
+            }
+          },
+          "e548355c-cc98-4c79-a647-b1120212fe8f": {
+            "type": "select",
+            "settings": {
+              "deliveryarea-subheading": "大阪府",
+              "deliveryarea-description": "<p>大阪市、堺市、池田市、箕面市、豊中市、吹田市、茨木市、摂津市、高槻市、枚方市、交野市、寝屋川市、守口市、門真市、四条畷市、大東市、東大阪市、八尾市、柏原市、藤井寺市、松原市、羽曳野市、高石市、泉大津市、和泉市、忠岡町、岸和田市<\/p>"
+            }
+          },
+          "a74af44d-ba38-4906-8782-d987661e5c91": {
+            "type": "select",
+            "settings": {
+              "deliveryarea-subheading": "兵庫県",
+              "deliveryarea-description": "<p>神戸市、西宮市、伊丹市、芦屋市、尼崎市、宝塚市、明石市、稲美町、播磨町、加古川市、高砂市、三木市、小野市、加西市、姫路市、三田市<\/p>"
+            }
+          },
+          "f79adfdf-3202-4ef2-9462-402ba75c27be": {
+            "type": "select",
+            "settings": {
+              "deliveryarea-subheading": "福岡県",
+              "deliveryarea-description": "<p>福岡市、春日市、志免町、大野城市、筑紫野市、小郡市、筑前町、太宰府市、那珂川市<\/p>"
+            }
+          },
+          "7d69b4ec-827f-42d0-b1fb-8927a577fda3": {
+            "type": "select",
+            "settings": {
+              "deliveryarea-subheading": "宮崎県",
+              "deliveryarea-description": "<p>宮崎市、新富町、高鍋町、国富町、西都市、木城町、日南市、都城市、日向市、延岡市<\/p>"
+            }
+          },
+          "03f79e08-b625-49b8-b2d4-592ba16b0661": {
+            "type": "select",
+            "settings": {
+              "deliveryarea-subheading": "沖縄県",
+              "deliveryarea-description": "<p>那覇市、宜野湾市、沖縄市、うるま市、浦添市、豊見城市、糸満市、南風原町、八重瀬町、南城市、与那原町、西原町、中城村、北中城村<\/p>"
+            }
+          },
+          "d465aed8-eec5-4837-9644-fdfbff32845f": {
+            "type": "select",
+            "settings": {
+              "deliveryarea-subheading": "その他",
+              "deliveryarea-description": ""
+            }
+          }
+        },
+        "block_order": [
+          "de474626-4d7a-4da1-9bea-0ec5f550c141",
+          "c230cecb-6bcf-4b28-ad85-fd6416b6f66e",
+          "0292d8da-200b-4adf-9744-57ac10389778",
+          "27e3dc8c-16bb-4b79-bdc1-12e2188f7fa9",
+          "9670f4db-154c-4d4d-9f41-b2e9f7e23ac6",
+          "b35af817-23a7-4591-93f9-c6419a496f09",
+          "0395e64d-0505-415f-ab8d-b75a5b5725c6",
+          "8a3f6922-5b1e-4bda-8150-5ed7a8122a63",
+          "da3d3c8d-21cb-4a92-87c2-4ce59be1d069",
+          "528f81eb-4613-45ba-92d4-c11234ddc0c9",
+          "e93ee889-a90d-4935-915a-86a691271800",
+          "6e021409-ea41-4326-91f1-079505189c3d",
+          "ec10cded-7a6e-4223-8410-03aa7c6110f3",
+          "e548355c-cc98-4c79-a647-b1120212fe8f",
+          "a74af44d-ba38-4906-8782-d987661e5c91",
+          "f79adfdf-3202-4ef2-9462-402ba75c27be",
+          "7d69b4ec-827f-42d0-b1fb-8927a577fda3",
+          "03f79e08-b625-49b8-b2d4-592ba16b0661",
+          "d465aed8-eec5-4837-9644-fdfbff32845f"
+        ],
+        "settings": {
+          "deliveryarea-heading": "配送地域",
+          "deliveryarea-summary-heading1": "【全域】",
+          "deliveryarea-summary-text1": "<p>東京都・埼玉県・千葉県・神奈川県・奈良県<\/p>",
+          "deliveryarea-summary-heading2": "【一部】",
+          "deliveryarea-summary-text2": "<p>北海道・宮城県・福島県・茨城県・栃木県・群馬県・山梨県・長野県・岐阜県・静岡県・愛知県・三重県・京都府・大阪府・兵庫県・福岡県・宮崎県・沖縄県<\/p>",
+          "deliveryarea-summary-note": "<p>一部と記載のエリアは下記地域のみ対象となります。<br\/>※離島、その他一部地域は対象外<br\/>※対象外エリアの場合、ご注文はキャンセルとなりますのでご注意ください。<\/p>"
+        }
+      },
+      "product-custom-other": {
+        "type": "product-custom-other",
+        "blocks": {
+          "b670f2fd-07de-44d6-9726-a6853210fb70": {
+            "type": "select",
+            "settings": {
+              "otherarea-tablehead": "お届け",
+              "otherarea-description": "<p>入金確認後、最短翌々日（配送日のみ指定可）<br\/>※お伺い時間帯は、配送業者より【配送日前日の夕方以降】に、お電話またはメールにてご連絡いたします。<br\/>※訪問時にご不在だった場合、再配達は有料となります。再訪問時に料金を申し受けますので、予めご承知ください。<\/p>"
+            }
+          },
+          "fb62b3e0-8d40-4bd3-b480-c36be40b639a": {
+            "type": "select",
+            "settings": {
+              "otherarea-tablehead": "設置について",
+              "otherarea-description": "<p>発送・設置まですべて込みで対応いたします。<br\/>注意１：配送時間の指定はできませんが、【配送日前日の夕方以降】にお電話かメールにてご連絡します。<br\/>注意２：再配達の場合は別途発送料が発生します。<\/p>"
+            }
+          },
+          "4b1e5e27-eee8-49f8-9500-dcdd3f257daa": {
+            "type": "select",
+            "settings": {
+              "otherarea-tablehead": "お支払方法",
+              "otherarea-description": "<p>クレジットカード・銀行振込<\/p>"
+            }
+          },
+          "d7f9169b-07a5-4824-98b7-3dda45e6cd3a": {
+            "type": "select",
+            "settings": {
+              "otherarea-tablehead": "保証期間",
+              "otherarea-description": "<p>商品設置日から【180日間】<br\/>万が一商品に不具合が発生した場合は、設置日から180日間以内であれば同等品と交換させていただきます。<br\/>以下のお問合せまでご相談ください。<br\/><br\/>～ 保証対象外の例 ～<br\/>・サイズが大きい、色が違うなど、お客様の想像されていたイメージと異なる場合<br\/>・設置の際、建物側の状況による部品交換等の諸費用。（例：水道蛇口が洗濯取り付けホースに対応していない、など）<br\/>・洗濯機のごみ取りネット、冷蔵庫の庫内灯など、経年劣化による消耗品の交換<br\/>・お客様による故意、不注意で発生した製品の不具合や傷などの損傷<br\/>・ご使用環境による、製品のサビ、カビ、変色等の発生　など<\/p>"
+            }
+          },
+          "2dd49a40-9a5d-4dd7-9806-3d8788f2fcc1": {
+            "type": "select",
+            "settings": {
+              "otherarea-tablehead": "注意事項",
+              "otherarea-description": "<p>・お届けするお品物は、すべてBランクの中古品（USED）になります。お届け前にメンテンナンス＆クリーニングを行っておりますが、通常使用による細かいすりキズなどがある場合もありますので、予めご了承の上お買い求めください。（ご使用には問題のないレベルです）<br\/><br\/>・お届けする洗濯機によっては、本体上部の「衣類乾燥機用排水口」および「風呂水給水口」のカバーが欠品している場合がございます。（通常のご使用には支障ございません）<br\/><br\/>・以下のものは付属しておりません。<br\/>取扱説明書／メーカー発行の保証書／冷蔵庫の製氷皿／風呂水吸水用ホース<br\/>※オーブンレンジについては「角皿」が元々付属しない製品もございます<br\/><br\/>・家電リサイクル品（洗濯機および冷蔵庫）がある場合は、配送日前までにカスタマーサポートへご相談ください。<br\/><br\/>・不具合があった場合、返品交換でお伺いするまでに日数を頂く場合がございますのでご了承ください。<\/p>"
+            }
+          },
+          "6a5f34bd-e7e6-48e4-b996-776ede13b702": {
+            "type": "select",
+            "settings": {
+              "otherarea-tablehead": "お問合せ",
+              "otherarea-description": "<p><strong>《トレジャーファクトリー カスタマーサポート》<\/strong><br\/>【TEL】0120-22-8828（受付時間：10:00～17:00 土日祝休み）<br\/>【mail】メールでのお問合せはこちら　<a href=\"mailto:teikei_sougou@treasure-f.com\" target=\"_blank\" title=\"mailto:teikei_sougou@treasure-f.com\">teikei_sougou@treasure-f.com<\/a><br\/>※トレジャーファクトリー店舗へのお問合せは、お応えしかねますのでご遠慮ください<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "b670f2fd-07de-44d6-9726-a6853210fb70",
+          "fb62b3e0-8d40-4bd3-b480-c36be40b639a",
+          "4b1e5e27-eee8-49f8-9500-dcdd3f257daa",
+          "d7f9169b-07a5-4824-98b7-3dda45e6cd3a",
+          "2dd49a40-9a5d-4dd7-9806-3d8788f2fcc1",
+          "6a5f34bd-e7e6-48e4-b996-776ede13b702"
+        ],
+        "settings": {
+          "otherarea-heading": "その他"
+        }
+      },
+      "product-custom-recyclinglaw": {
+        "type": "product-custom-recyclinglaw",
+        "blocks": {
+          "b8d5a16a-7653-4e91-af5d-cf12b0df788c": {
+            "type": "select",
+            "settings": {
+              "recyclinglawarea-tablehead": "リサイクル料金",
+              "recyclinglawarea-description": "<p>（財）家電製品協会　家電リサイクル券センター<a href=\"https:\/\/www.rkc.aeha.or.jp\/guide\/recycle_price.html\" target=\"_blank\">再商品化等料金一覧<\/a>をご参照ください。<\/p>"
+            }
+          },
+          "9be8c02e-9990-4861-8aae-753f263bb54c": {
+            "type": "select",
+            "settings": {
+              "recyclinglawarea-tablehead": "収集運搬料金",
+              "recyclinglawarea-description": "<p>テレビ：2,200円(税込) \/ 洗濯機、衣類乾燥機：4,400円(税込) \/ 冷蔵庫、冷凍庫：3,300円(税込)<\/p>"
+            }
+          },
+          "991d3732-f63d-4e3c-bac8-2f2d6d3aa4a3": {
+            "type": "select",
+            "settings": {
+              "recyclinglawarea-tablehead": "お問合せ",
+              "recyclinglawarea-description": "<p>引き取りをご希望のお客様は下記問い合わせ先にメールにてご連絡ください。<br\/><a href=\"mailto:teikei_sougou@treasure-f.com\" target=\"_blank\" title=\"mailto:teikei_sougou@treasure-f.com\">teikei_sougou@treasure-f.com<\/a><\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "b8d5a16a-7653-4e91-af5d-cf12b0df788c",
+          "9be8c02e-9990-4861-8aae-753f263bb54c",
+          "991d3732-f63d-4e3c-bac8-2f2d6d3aa4a3"
+        ],
+        "settings": {
+          "recyclinglawarea-heading": "家電リサイクル法に基づくリサイクル回収"
+        }
+      },
+      "16333144605018ced6": {
+        "type": "image-list",
+        "blocks": {
+          "6214fecd-b6a5-4ceb-8887-a49aba17a305": {
+            "type": "select",
+            "settings": {
+              "imagelistarea-pc": "shopify:\/\/shop_images\/point_ttl.jpg",
+              "imagelistarea-sp": "shopify:\/\/shop_images\/point_ttl_sp.png"
+            }
+          },
+          "a992360c-4c27-4a55-a159-3292148c85b9": {
+            "type": "select",
+            "settings": {
+              "imagelistarea-pc": "shopify:\/\/shop_images\/point_01.jpg",
+              "imagelistarea-sp": "shopify:\/\/shop_images\/point_01_sp.png"
+            }
+          },
+          "4a2e618b-eba7-4076-9754-afc11b8e92eb": {
+            "type": "select",
+            "settings": {
+              "imagelistarea-pc": "shopify:\/\/shop_images\/point_02.jpg",
+              "imagelistarea-sp": "shopify:\/\/shop_images\/point_02_sp.png"
+            }
+          },
+          "0f3fee0b-5eaa-495a-9fc2-fc6928913293": {
+            "type": "select",
+            "settings": {
+              "imagelistarea-pc": "shopify:\/\/shop_images\/point_03_1aad8e64-6c2a-4d40-9ddb-e168bc71b426.jpg",
+              "imagelistarea-sp": "shopify:\/\/shop_images\/point_03_sp.jpg"
+            }
+          },
+          "60249714-631c-4608-8cff-9fa295134309": {
+            "type": "select",
+            "settings": {
+              "imagelistarea-pc": "shopify:\/\/shop_images\/point_04.jpg",
+              "imagelistarea-sp": "shopify:\/\/shop_images\/point_04_sp.png"
+            }
+          },
+          "573cfa07-2378-4aa6-aaf9-eac5f6f21abb": {
+            "type": "select",
+            "settings": {
+              "imagelistarea-pc": "shopify:\/\/shop_images\/point_05.jpg",
+              "imagelistarea-sp": "shopify:\/\/shop_images\/point_05_sp.png"
+            }
+          },
+          "c1bfe7c5-e6b4-4012-8419-a1cf17a50879": {
+            "type": "select",
+            "settings": {
+              "imagelistarea-pc": "shopify:\/\/shop_images\/point_06.jpg",
+              "imagelistarea-sp": "shopify:\/\/shop_images\/point_06_sp.png"
+            }
+          },
+          "573b538c-d86c-4f62-b5f4-f9cdd3e39dd6": {
+            "type": "select",
+            "settings": {
+              "imagelistarea-pc": "shopify:\/\/shop_images\/clean_ttl.jpg",
+              "imagelistarea-sp": "shopify:\/\/shop_images\/clean_ttl_sp.png"
+            }
+          },
+          "356d49c5-279b-40e7-8eb0-fef02d072b13": {
+            "type": "select",
+            "settings": {
+              "imagelistarea-pc": "shopify:\/\/shop_images\/clean_cont.jpg",
+              "imagelistarea-sp": "shopify:\/\/shop_images\/clean_sp.jpg"
+            }
+          },
+          "e887cd3a-7e78-467f-858c-e3685e43e777": {
+            "type": "select",
+            "settings": {
+              "imagelistarea-pc": "shopify:\/\/shop_images\/clean_note.jpg",
+              "imagelistarea-sp": "shopify:\/\/shop_images\/clean_note_sp.jpg"
+            }
+          },
+          "7365eba9-e5d3-4b0b-a230-85716727fc34": {
+            "type": "select",
+            "settings": {
+              "imagelistarea-pc": "shopify:\/\/shop_images\/step_ttl.jpg",
+              "imagelistarea-sp": "shopify:\/\/shop_images\/step_ttl_sp.png"
+            }
+          },
+          "be6ae01d-04fc-42fd-bf5a-f6e729f745ac": {
+            "type": "select",
+            "settings": {
+              "imagelistarea-pc": "shopify:\/\/shop_images\/step_cont.jpg",
+              "imagelistarea-sp": "shopify:\/\/shop_images\/step_sp.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "6214fecd-b6a5-4ceb-8887-a49aba17a305",
+          "a992360c-4c27-4a55-a159-3292148c85b9",
+          "4a2e618b-eba7-4076-9754-afc11b8e92eb",
+          "0f3fee0b-5eaa-495a-9fc2-fc6928913293",
+          "60249714-631c-4608-8cff-9fa295134309",
+          "573cfa07-2378-4aa6-aaf9-eac5f6f21abb",
+          "c1bfe7c5-e6b4-4012-8419-a1cf17a50879",
+          "573b538c-d86c-4f62-b5f4-f9cdd3e39dd6",
+          "356d49c5-279b-40e7-8eb0-fef02d072b13",
+          "e887cd3a-7e78-467f-858c-e3685e43e777",
+          "7365eba9-e5d3-4b0b-a230-85716727fc34",
+          "be6ae01d-04fc-42fd-bf5a-f6e729f745ac"
+        ],
+        "settings": {
+        }
+      },
+      "1633484300c7f7ddcd": {
+        "type": "image_switching",
+        "settings": {
+          "image_pc": "shopify:\/\/shop_images\/main.jpg",
+          "image_sp": "shopify:\/\/shop_images\/main_sp.jpg"
+        }
+      },
+      "cart-template": {
+        "type": "cart-template",
+        "settings": {
+          "cart_ajax_enable": true,
+          "cart_notes_enable": false
+        }
+      },
+      "1636015730e835b79e": {
+        "type": "custom-notes",
+        "disabled": true,
+        "settings": {
+          "noticesarea-heading": "年末年始休業のお知らせ",
+          "noticesarea-description": "<p>いつも当店をご利用いただきまして、ありがとうございます。誠に勝手ながら、下記期間を<em>休業日<\/em>とさせていただきます。<\/p><p><strong>【2021年12月20日（月）～2022年1月4日（火）】<\/strong><\/p>"
+        }
+      },
+      "custom-notes": {
+        "type": "custom-notes",
+        "settings": {
+          "noticesarea-heading": "",
+          "noticesarea-description": ""
+        }
+      },
+      "1646885079c3ff08e5": {
+        "type": "custom-banner",
+        "settings": {
+          "banner-url": "https:\/\/ec.treasure-f.com\/",
+          "banner-image-pc": "shopify:\/\/shop_images\/pc_tfonline_bnr_2022031301.jpg",
+          "banner-image-sp": "shopify:\/\/shop_images\/pc_tfonline_bnr_2022031301.jpg"
+        }
+      },
+      "custom-banner": {
+        "type": "custom-banner",
+        "settings": {
+          "banner-url": "https:\/\/ec.treasure-f.com\/",
+          "banner-image-pc": "shopify:\/\/shop_images\/pc_tfonline_bnr.png",
+          "banner-image-sp": "shopify:\/\/shop_images\/sp_tfonline_bnr.png"
+        }
+      }
+    },
+    "content_for_index": [
+      "1636015730e835b79e",
+      "1633484300c7f7ddcd",
+      "collection",
+      "16333144605018ced6",
+      "1646885079c3ff08e5"
+    ]
+  },
+  "presets": {
+    "Default": {
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+          }
+        },
+        "hero-1": {
+          "type": "hero",
+          "settings": {
+            "hero_size": "large",
+            "text_size": "large"
+          }
+        },
+        "feature-row": {
+          "type": "feature-row",
+          "settings": {
+          }
+        },
+        "feature-columns": {
+          "type": "feature-columns",
+          "blocks": {
+            "feature-columns-0": {
+              "type": "text_block",
+              "settings": {
+              }
+            },
+            "feature-columns-1": {
+              "type": "text_block",
+              "settings": {
+              }
+            },
+            "feature-columns-2": {
+              "type": "text_block",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "feature-columns-0",
+            "feature-columns-1",
+            "feature-columns-2"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "collection": {
+          "type": "collection",
+          "settings": {
+            "grid": 4
+          }
+        },
+        "hero-2": {
+          "type": "hero",
+          "settings": {
+            "text_size": "large"
+          }
+        },
+        "quotes": {
+          "type": "quotes",
+          "blocks": {
+            "quotes-0": {
+              "type": "quote",
+              "settings": {
+              }
+            },
+            "quotes-1": {
+              "type": "quote",
+              "settings": {
+              }
+            },
+            "quotes-2": {
+              "type": "quote",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "quotes-0",
+            "quotes-1",
+            "quotes-2"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "image-bar": {
+          "type": "image-bar",
+          "blocks": {
+            "image-bar-0": {
+              "type": "image",
+              "settings": {
+              }
+            },
+            "image-bar-1": {
+              "type": "image",
+              "settings": {
+              }
+            },
+            "image-bar-2": {
+              "type": "image",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "image-bar-0",
+            "image-bar-1",
+            "image-bar-2"
+          ],
+          "settings": {
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "link_list",
+              "settings": {
+              }
+            },
+            "footer-1": {
+              "type": "newsletter",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1"
+          ],
+          "settings": {
+            "show_payment_icons": true
+          }
+        }
+      },
+      "content_for_index": [
+        "hero-1",
+        "feature-row",
+        "feature-columns",
+        "collection",
+        "hero-2",
+        "quotes",
+        "image-bar"
+      ]
+    },
+    "Light": {
+      "color_text": "#162950",
+      "color_body_text": "#6d6d6d",
+      "color_sale_text": "#DA2F0C",
+      "color_borders": "#e4e4e4",
+      "color_button": "#DA2F0C",
+      "color_button_text": "#ffffff",
+      "color_small_button_text_border": "#162950",
+      "color_text_field": "#ffffff",
+      "color_text_field_text": "#162950",
+      "color_text_field_border": "#909090",
+      "color_image_overlay_text": "#ffffff",
+      "color_image_overlay": "#3d3d3d",
+      "image_overlay_opacity": 40,
+      "color_body_bg": "#f8f8f8",
+      "type_header_font": "muli_n6",
+      "type_header_base_size": 26,
+      "type_base_font": "muli_n4",
+      "type_base_size": 18,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "social_twitter_link": "",
+      "social_facebook_link": "",
+      "social_pinterest_link": "",
+      "social_instagram_link": "",
+      "social_tumblr_link": "",
+      "social_snapchat_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": "",
+      "favicon": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "small",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#e8f3f6",
+      "checkout_heading_font": "Roboto",
+      "checkout_body_font": "Source Sans Pro",
+      "checkout_accent_color": "#1990c6",
+      "checkout_button_color": "#23314e",
+      "checkout_error_color": "#ff6d6d",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "align_logo": "left",
+            "logo": "",
+            "logo_max_width": 135,
+            "main_linklist": "main-menu",
+            "message": true,
+            "color_bg": "#162950",
+            "color_text": "#ffffff"
+          }
+        },
+        "hero": {
+          "type": "hero",
+          "settings": {
+            "alignment": "center",
+            "hero_size": "x-large",
+            "text_size": "large"
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slideshow-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "alignment": "center center"
+              }
+            },
+            "1492095993817": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "alignment": "center"
+              }
+            }
+          },
+          "block_order": [
+            "slideshow-0",
+            "1492095993817"
+          ],
+          "settings": {
+            "slideshow_height": "medium",
+            "text_size": "medium",
+            "autorotate": false,
+            "autorotate_speed": 5
+          }
+        },
+        "featured-collections": {
+          "type": "collection",
+          "settings": {
+            "grid": 3,
+            "rows": 1,
+            "show_vendor": true,
+            "show_view_all": true
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_vendor": false,
+            "show_share_buttons": true,
+            "media_size": "medium",
+            "enable_image_zoom": true,
+            "enable_video_looping": false
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "layout": "grid",
+            "grid": 2,
+            "rows": 2,
+            "show_collection_image": true,
+            "show_vendor": false,
+            "sort_enable": true,
+            "tags_enable": true
+          }
+        },
+        "1492033809691": {
+          "type": "map",
+          "settings": {
+          }
+        },
+        "1492033877875": {
+          "type": "quotes",
+          "blocks": {
+            "1492033877875-0": {
+              "type": "quote",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "1492033877875-0"
+          ],
+          "settings": {
+          }
+        },
+        "1492033924902": {
+          "type": "custom-content",
+          "blocks": {
+            "1492033924902-0": {
+              "type": "text",
+              "settings": {
+                "width": "100%",
+                "alignment": "center",
+                "align_text": "center"
+              }
+            }
+          },
+          "block_order": [
+            "1492033924902-0"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "1492096252560": {
+          "type": "collection-list",
+          "blocks": {
+            "1492096252560-0": {
+              "type": "featured_collection",
+              "settings": {
+              }
+            },
+            "1492096252560-1": {
+              "type": "featured_collection",
+              "settings": {
+              }
+            },
+            "1492096252560-2": {
+              "type": "featured_collection",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "1492096252560-0",
+            "1492096252560-1",
+            "1492096252560-2"
+          ],
+          "settings": {
+            "grid": 3
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "layout": "grid",
+            "blog_show_author": true,
+            "blog_show_date": false
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_show_author": true,
+            "blog_show_date": true,
+            "show_share_buttons": true
+          }
+        },
+        "cart-template": {
+          "type": "cart-template",
+          "settings": {
+            "cart_notes_enable": false
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "link_list": {
+              "type": "link_list",
+              "settings": {
+              }
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+              }
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "link_list",
+            "text",
+            "newsletter"
+          ],
+          "settings": {
+            "color_footer_bg": "#f8f8f8",
+            "color_footer_text": "#6d6d6d"
+          }
+        }
+      },
+      "content_for_index": [
+        "hero",
+        "featured-collections",
+        "slideshow",
+        "1492033924902",
+        "1492096252560",
+        "1492033877875",
+        "1492033809691"
+      ]
+    }
+  }
+}

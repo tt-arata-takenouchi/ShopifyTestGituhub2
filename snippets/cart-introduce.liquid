@@ -1,0 +1,32 @@
+<div id="cart-introduce">
+  <div class="cart-introduce">
+    <p class="cart-introduce__title"><span class="label-require">必須</span>紹介支店・担当者名</p>
+    <p class="cart-attribute__field">
+      <label for="">紹介支店名</label>
+      <input id="" type="text" name="attributes[紹介支店名]" value="{{ cart.attributes["紹介支店名"] }}">
+    </p>
+    <p class="cart-attribute__field">
+      <label for="">担当者名</label>
+      <input id="" type="text" name="attributes[担当者名]" value="{{ cart.attributes["担当者名"] }}">
+    </p>
+    <p>※ご不明の場合は「なし」と入力してください。</p>
+  </div>
+  <hr>
+</div>
+<script>
+    var type = getCookie('type');
+    var cartIntroduceArea = document.getElementById('cart-introduce');
+      if (type === undefined) {
+        cartIntroduceArea.remove();
+      } else if (type === 'tfhikkoshi') {
+        cartIntroduceArea.remove();
+      } else if (type === 'tfonline') {
+        cartIntroduceArea.remove();
+      } else if (type === 'trefac_a') {
+        cartIntroduceArea.remove();
+      } else if (type === 'tfh-M') {
+        cartIntroduceArea.remove();
+      } else if (type === 'tfh-OP') {
+        cartIntroduceArea.remove();
+      }
+</script>

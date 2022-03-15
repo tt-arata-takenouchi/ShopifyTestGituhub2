@@ -1,0 +1,65 @@
+<div class="page-width banner-wrap">
+{%- if section.settings.banner-url != blank -%}
+  <a href="{{ section.settings.banner-url}}" target="_blank">
+    <img id="banner-image-pc" src="{{section.settings.banner-image-pc | img_url: 'master'}}">
+    <img id="banner-image-sp" src="{{section.settings.banner-image-sp | img_url: 'master'}}">
+  </a>
+{%- endif -%}
+</div>
+
+{% schema %}
+{
+ "name": "バナー",
+ "settings": [
+   {
+     "id": "banner-url",
+     "type": "text",
+     "label": "URLを設定"
+   },
+   {
+     "id": "banner-image-pc",
+     "type": "image_picker",
+     "label": "PC表示画像"
+   },
+   {
+     "id": "banner-image-sp",
+     "type": "image_picker",
+     "label": "SP表示画像"
+   }
+  ],
+  "presets": [
+   {
+     "name": "バナー",
+     "category": "Image"
+   }
+ ]
+}
+{% endschema%}
+
+{% stylesheet%}
+  div.banner-wrap {
+	margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  img#banner-image-pc {
+    display: block;
+	margin: 0 auto;
+  }
+  img#banner-image-sp {
+    display: none;
+	margin: 0 auto;
+  }
+@media only screen and (max-width: 750px){
+  img#banner-image-pc {
+    display: none;
+	margin: 0 auto;
+  }
+  img#banner-image-sp {
+    display: block;
+	margin: 0 auto;
+  }
+}
+{% endstylesheet%}
+
+{% javascript %}
+{% endjavascript %}
